@@ -1,0 +1,75 @@
+ext {
+
+    androidBuildToolsVersion = "27.0.3"
+    androidMinSdkVersion = 21
+    androidTargetSdkVersion = 27
+    androidCompileSdkVersion = 27
+
+    supportLibraryVersion = '27.1.0'
+    rxJavaVersion = '2.0.2'
+    rxBindingVersion = '2.1.1'
+    rxAndroidVersion = '2.0.1'
+    javaxAnnotationVersion = '1.0'
+    javaxInjectVersion = '1'
+    androidAnnotationsVersion = '21.0.3'
+    daggerVersion = '2.11'
+    gsonVersion = '2.8.1'
+    okHttpVersion = '3.8.1'
+    retrofitVersion = '2.3.0'
+    archCompVersion = '1.1.1'
+    lifecycleVersion = '1.1.1'
+    pagingVersion = '1.0.0'
+    glideVersion = '4.0.0'
+    picassoVersion = '2.71828'
+
+    jUnitVersion = '4.12'
+    assertJVersion = '3.8.0'
+    mockitoVersion = '2.0.0-RC1'
+    robolectricVersion = '3.4.2'
+    androidSupportRunnerVersion = '1.0.0'
+    androidSupportRulesVersion = '1.0.0'
+    runnerVersion = '0.5'
+
+
+    appDependencies = [
+
+            javaxAnnotation:        "javax.annotation:jsr250-api:${javaxAnnotationVersion}",
+            javaxInject:            "javax.inject:javax.inject:${javaxInjectVersion}",
+            rxJava:                 "io.reactivex.rxjava2:rxandroid:${rxJavaVersion}",
+            rxAndroid:              "io.reactivex.rxjava2:rxandroid:${rxAndroidVersion}",
+            rxBinding:              "com.jakewharton.rxbinding2:rxbinding:${rxBindingVersion}",
+
+            androidAnnotations:     "com.android.support:support-annotations:${supportLibraryVersion}",
+            androidSupportV4:       "com.android.support:support-v4:${supportLibraryVersion}",
+            androidSupportV13:      "com.android.support:support-v13:${supportLibraryVersion}",
+            appCompatV7:            "com.android.support:appcompat-v7:${supportLibraryVersion}",
+            supportRecyclerView:    "com.android.support:recyclerview-v7:${supportLibraryVersion}",
+            supportDesign:          "com.android.support:design:${supportLibraryVersion}",
+
+            lifecycleExtentions:    "android.arch.lifecycle:extensions:${lifecycleVersion}",
+            lifecycleCompiler:      "android.arch.lifecycle:compiler:${lifecycleVersion}",
+            paging:                 "android.arch.paging:runtime:${pagingVersion}",
+
+            gson:               "com.google.code.gson:gson:${gsonVersion}",
+            okHttp:             "com.squareup.okhttp3:okhttp:${okHttpVersion}",
+            okHttpLogger:       "com.squareup.okhttp3:logging-interceptor:${okHttpVersion}",
+            retrofit:           "com.squareup.retrofit2:retrofit:${retrofitVersion}",
+            retrofitConverter:  "com.squareup.retrofit2:converter-gson:${retrofitVersion}",
+            retrofitAdapter:    "com.squareup.retrofit2:adapter-rxjava2:${retrofitVersion}",
+
+            dagger:             "com.google.dagger:dagger:${daggerVersion}",
+            daggerCompiler:     "com.google.dagger:dagger-compiler:${daggerVersion}",
+            daggerSupport:      "com.google.dagger:dagger-android-support:${daggerVersion}",
+            daggerProcessor:    "com.google.dagger:dagger-android-processor:${daggerVersion}",
+
+            glide:              "com.github.bumptech.glide:glide:${glideVersion}",
+            picasso:            "com.squareup.picasso:picasso:${picassoVersion}"
+
+
+
+    ]
+
+
+
+
+}

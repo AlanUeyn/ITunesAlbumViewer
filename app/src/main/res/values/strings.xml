@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">ITunesAlbumViewer</string>
+    <string name="album_title">Album title</string>
+    <string name="artist_name">Artist name</string>
+    <string name="detail_album_title">Album title</string>
+    <string name="detail_artist_name">Artist Name</string>
+    <string name="detail_genre">Genre</string>
+    <string name="detail_release_date">Release date</string>
+    <string name="detail_copyright">Copyright</string>
+    <string name="detail_year">1970</string>
+    <string name="detail_track_title">The long-long-long track title</string>
+    <string name="detail_track_number">12</string>
+    <string name="greetings_textview">Write the artist name in search field to start :)</string>
+    <string name="detail_tracklist">Tracklist:</string>
+    <string name="detail_release_text">Release date:</string>
+    <string name="query_hint">Artist name</string>
+    <string name="list_nothing_found">Nothing found :(</string>
+</resources>
